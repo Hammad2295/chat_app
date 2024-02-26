@@ -234,7 +234,7 @@ class _SelectCoinState extends State<SelectCoin> {
                 ),
                 Center(
                   child: Container(
-                    height: myHeight * 0.03,
+                    height: myHeight * 0.05,
                     child: ListView.builder(
                       shrinkWrap: true,
                       scrollDirection: Axis.horizontal,

@@ -62,7 +62,7 @@ class _MainHomeState extends State<MainHome> {
                         borderRadius: BorderRadius.circular(3)),
                     child: GestureDetector(
                       onTap: () => {
-                        Navigator.pushReplacement(context,
+                        Navigator.push(context,
                             MaterialPageRoute(builder: (context) => Home()))
                       },
                       child: Padding(
@@ -93,7 +93,7 @@ class _MainHomeState extends State<MainHome> {
                         shape: BoxShape.circle,
                         color: Colors.white.withOpacity(0.5)),
                     child: Image.asset(
-                      'assets/icons/5.1.png',
+                      'images/icons/5.1.png',
                     ),
                   )
                 ],
