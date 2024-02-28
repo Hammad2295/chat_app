@@ -68,6 +68,8 @@ class LogInState extends State<LogIn> {
             ),
           ),
         );
+        btnState = true;
+
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -78,6 +80,7 @@ class LogInState extends State<LogIn> {
             ),
           ),
         );
+        btnState = true;
       }
     }
   }
