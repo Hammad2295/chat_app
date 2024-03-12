@@ -44,27 +44,6 @@ class Item extends StatelessWidget {
                 ],
               ),
             ),
-            Expanded(
-              flex: 1,
-              child: Container(
-                height: myHeight * 0.05,
-                child: Sparkline(
-                  data: item.sparklineIn7D.price,
-                  lineWidth: 2.0,
-                  lineColor: item.marketCapChangePercentage24H >= 0
-                      ? Colors.green
-                      : Colors.red,
-                  fillMode: FillMode.below,
-                  fillGradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      stops: const [0.0, 0.7],
-                      colors: item.marketCapChangePercentage24H >= 0
-                          ? [Colors.green, Colors.green.shade100]
-                          : [Colors.red, Colors.red.shade100]),
-                ),
-              ),
-            ),
             SizedBox(
               width: myWidth * 0.01,
             ),

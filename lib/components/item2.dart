@@ -13,8 +13,7 @@ class Item2 extends StatelessWidget {
     double myHeight = MediaQuery.of(context).size.height;
     double myWidth = MediaQuery.of(context).size.width;
     return Padding(
-      padding: EdgeInsets.symmetric(
-          horizontal: myWidth * 0.03),
+      padding: EdgeInsets.symmetric(horizontal: myWidth * 0.03),
       child: GestureDetector(
         onTap: () {
           Navigator.push(
