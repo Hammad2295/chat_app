@@ -58,6 +58,9 @@ class LogInState extends State<LogIn> {
             ),
           ),
         );
+        setState(() {
+          btnState = false;
+        });
       } else if (e.code == 'wrong-password') {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -68,8 +71,9 @@ class LogInState extends State<LogIn> {
             ),
           ),
         );
-        btnState = true;
-
+        setState(() {
+          btnState = false;
+        });
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -80,7 +84,9 @@ class LogInState extends State<LogIn> {
             ),
           ),
         );
-        btnState = true;
+        setState(() {
+          btnState = false;
+        });
       }
     }
   }
@@ -226,8 +232,8 @@ class LogInState extends State<LogIn> {
                                 return DecoratedBox(
                                   decoration: BoxDecoration(
                                     color: index.isEven
-                                        ? Colors.red
-                                        : Colors.green,
+                                        ? Colors.black
+                                        : Colors.purple,
                                   ),
                                 );
                               },
@@ -262,7 +268,9 @@ class LogInState extends State<LogIn> {
                               ),
                             ),
                     ),
-                    SizedBox(height: 20.0,),
+                    SizedBox(
+                      height: 20.0,
+                    ),
                     // Create an Account //
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
