@@ -56,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen> {
             padding: EdgeInsets.fromLTRB(
                 20, MediaQuery.of(context).size.height * 0.2, 20, 0),
             child: Column(children: [
-              logoWidget('images/logo.png'),
+              logoWidget('assets/image/logo.png'),
             ]),
           ),
         ),

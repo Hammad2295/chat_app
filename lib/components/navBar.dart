@@ -4,7 +4,6 @@ import 'package:chat_app/pages/cryptoNewsList.dart';
 import 'package:chat_app/pages/mainHome.dart';
 import 'package:chat_app/pages/view_profile.dart';
 import 'package:flutter/material.dart';
-import 'package:chat_app/components/dummy.dart';
 import 'package:chat_app/pages/home.dart';
 
 class NavBar extends StatefulWidget {
@@ -22,7 +21,6 @@ class _NavBarState extends State<NavBar> {
     CryptoNewsList(),
     Home(),
     ViewProfile(),
-
   ];
 
   @override
@@ -47,49 +45,49 @@ class _NavBarState extends State<NavBar> {
             items: [
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    'images/icons/1.1.png',
+                    'assets/icons/1.1.png',
                     height: myHeight * 0.03,
                     color: Colors.grey,
                   ),
                   label: '',
                   activeIcon: Image.asset(
-                    'images/icons/1.2.png',
+                    'assets/icons/1.2.png',
                     height: myHeight * 0.03,
                     color: Color(0xffFBC700),
                   )),
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    'images/icons/2.1.png',
+                    'assets/icons/2.1.png',
                     height: myHeight * 0.03,
                     color: Colors.grey,
                   ),
                   label: '',
                   activeIcon: Image.asset(
-                    'images/icons/2.2.png',
+                    'assets/icons/2.2.png',
                     height: myHeight * 0.03,
                     color: Color(0xffFBC700),
                   )),
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    'images/icons/6.1.png',
+                    'assets/icons/6.1.png',
                     height: myHeight * 0.03,
                     color: Colors.grey,
                   ),
                   label: '',
                   activeIcon: Image.asset(
-                    'images/icons/6.2.png',
+                    'assets/icons/6.2.png',
                     height: myHeight * 0.03,
                     color: Color(0xffFBC700),
                   )),
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    'images/icons/4.1.png',
+                    'assets/icons/4.1.png',
                     height: myHeight * 0.03,
                     color: Colors.grey,
                   ),
                   label: '',
                   activeIcon: Image.asset(
-                    'images/icons/4.2.png',
+                    'assets/icons/4.2.png',
                     height: myHeight * 0.03,
                     color: Color(0xffFBC700),
                   )),

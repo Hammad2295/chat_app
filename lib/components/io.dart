@@ -50,7 +50,11 @@ class _IOState extends State<IO> {
                 ),
                 Container(
                   child: Column(children: [
-                    Image.asset('images/logo.png', height: 300.0, width: 300.0,),
+                    Image.asset(
+                      'assets/image/logo.png',
+                      height: 300.0,
+                      width: 300.0,
+                    ),
                   ]),
                 ),
                 Column(
@@ -68,7 +72,6 @@ class _IOState extends State<IO> {
                         ),
                       ],
                     ),
-                    
                     Image.asset(
                       'assets/image/loading1.gif',
                       height: myHeight * 0.015,

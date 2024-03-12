@@ -93,7 +93,7 @@ class _MainHomeState extends State<MainHome> {
                         shape: BoxShape.circle,
                         color: Colors.white.withOpacity(0.5)),
                     child: Image.asset(
-                      'images/icons/5.1.png',
+                      'assets/icons/5.1.png',
                     ),
                   )
                 ],
