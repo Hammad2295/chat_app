@@ -15,7 +15,7 @@ class _IOState extends State<IO> {
   @override
   void initState() {
     Timer(
-      Duration(seconds: 4),
+      Duration(seconds: 2),
       () {
         Navigator.pushReplacement(
             context, MaterialPageRoute(builder: (context) => LogIn()));
@@ -30,7 +30,7 @@ class _IOState extends State<IO> {
     double myWidth = MediaQuery.of(context).size.width;
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Color.fromARGB(255, 181, 181, 181),
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         body: Container(
           height: myHeight,
           width: myWidth,
