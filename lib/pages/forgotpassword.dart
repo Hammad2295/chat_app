@@ -138,7 +138,8 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                             width: 130,
                                             padding: EdgeInsets.all(10.0),
                                             decoration: BoxDecoration(
-                                                color: Color.fromARGB(255, 44, 44, 44),
+                                                color: Color.fromARGB(
+                                                    255, 44, 44, 44),
                                                 borderRadius:
                                                     BorderRadius.circular(10)),
                                             child: Center(

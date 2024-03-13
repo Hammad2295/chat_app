@@ -1,6 +1,5 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:chart_sparkline/chart_sparkline.dart';
 import 'package:flutter/material.dart';
 
 class Item extends StatelessWidget {
